@@ -1,0 +1,22 @@
+{
+    "title": "Test before U5_WS",
+    "githubLoc": "https://raw.githubusercontent.com/RRISTM/stm32_threadx/master/doc",
+    "options": {
+      "allowMenu": true,
+      "allowTagSelect": false
+    },
+    "filesToLoadArr": [
+      {
+        "name": "File1",
+        "path": "/folder1",
+        "file": "file1.md"
+      }
+    ],
+    "menuStructure": [
+      {
+        "type": "File",
+        "name": "File1",
+        "file": "file1.md"
+      }
+    ]
+  }
