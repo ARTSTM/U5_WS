@@ -1,4 +1,18 @@
+{::options parse_block_html="true" /}
 # STM32U5 Workshop - preparation to the session
+
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+
+NOTE DESCRIPTION
+
+</div>
+</div>
+
+My important paragraph.
+{: .alert .alert-info}
 
 ## Prerequisites
 - Hardware:
