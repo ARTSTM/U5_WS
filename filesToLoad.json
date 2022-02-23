@@ -7,7 +7,7 @@
     },
     "filesToLoadArr": [
       {
-        "name": "File1",
+        "name": "Preparation and homework",
         "path": "/folder1",
         "file": "file1.md"
       }
@@ -15,7 +15,7 @@
     "menuStructure": [
       {
         "type": "File",
-        "name": "File1",
+        "name": "Preparation and homework",
         "file": "file1.md"
       }
     ]
