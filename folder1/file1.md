@@ -58,10 +58,12 @@ In case of library installation problems please try an alternative way:
 ----
 
 ### **Task definition**
- 
 - Using STM32CubeIDE:
  - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
- - Configure USART1 in asynchronous mode, using default settings (115200bps, 8D, 1stop bit, no parity) on PA9/PA10 pins
+ - Configure USART1:
+   - in asynchronous mode, 
+   - using default settings (115200bps, 8D, 1stop bit, no parity) 
+   - on PA9/PA10 pins
  - Configure Timer8:
    - in master mode (default), 
    - supplied by internal clock, 
@@ -76,9 +78,11 @@ In case of library installation problems please try an alternative way:
  - Specify workspace location (i.e. `C:\_Work\U5_WS`)
 
 ![Workspace_start](./img/New_prj_start.gif)
-- Start new project using one of the below methods 
+
+- Start new project using one of the below methods:
   - by selecting `File->New->STM32Project` 
   - by click on `Start new STM32 project` button
+  
   
   ![Workspace_start2](./img/New_prj_start_2.gif)
 
