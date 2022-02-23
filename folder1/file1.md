@@ -34,10 +34,10 @@
 ![U5_Lib_Install](./img/U5_Lib_install.gif)
 
 In case of library installation problems please try an alternative way:
-- download **STM32U5 Cube library** (.zip file)
-- run **STM32CubeIDE**
-- go to `Help -> Manage Embedded Software Packages`
-- within packager manager window use option `From local` 
+ - download **STM32U5 Cube library** (.zip file)
+ - run **STM32CubeIDE**
+ - go to `Help -> Manage Embedded Software Packages`
+ - within packager manager window use option `From local` 
   
 ![U5_Lib_Install_from_local](./img/U5_Lib_install_from_local.gif)
 ----
@@ -52,8 +52,8 @@ In case of library installation problems please try an alternative way:
 
 ## **STM32CubeIDE** - basic project creation
 ### **Application description**
-- send some data over USART1 (to be monitored by terminal application)
-- control Green LED by channel2 of Timer8 (1 second period blinks)
+ - send some data over USART1 (to be monitored by terminal application)
+ - control Green LED by channel2 of Timer8 (1 second period blinks)
 
 ----
 
@@ -71,8 +71,8 @@ Using STM32CubeIDE:
 ----
 
 ### **Step1** - project creation and peripherals configuration
-- Run **STM32CubeIDE**
-- Specify workspace location (i.e. `C:\_Work\U5_WS`)
+ - Run **STM32CubeIDE**
+ - Specify workspace location (i.e. `C:\_Work\U5_WS`)
 
 ![Workspace_start](./img/New_prj_start.gif)
 - Start new project using one of the below methods 
@@ -172,14 +172,14 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 
 ![Board connection](./img/Nucleo_connect.gif)
 
-- Start the debug session using `bug` icon or `Run->debug` or by pressing **F11**
-- All the settings should be automatically set based on your compiled project. Press `OK` button
-- Select `Switch` within `Configure Perspective Switch` dialog which is informing about new (debug one) windows setup within STM32CubeIDE application.
+ - Start the debug session using `bug` icon or `Run->debug` or by pressing **F11**
+ - All the settings should be automatically set based on your compiled project. Press `OK` button
+ - Select `Switch` within `Configure Perspective Switch` dialog which is informing about new (debug one) windows setup within STM32CubeIDE application.
 
 ![Project debug](./img/Prj_debug.gif)
 
-- Start terminal application and run it for virtual COM port number assigned to the NUCLEO board with settings: 115200bps, 8bits data, 1 stop bit, no parity, no HW control. As an alternative you can use STM32CubeIDE built-in terminal (please have a look within Appendix for more details)
-- run the application within debug session. As a result Green LED should toogle each second and within terminal there should be "Homework exercise" message displayed.
+ - Start terminal application and run it for virtual COM port number assigned to the NUCLEO board with settings: 115200bps, 8bits data, 1 stop bit, no parity, no HW control. As an alternative you can use STM32CubeIDE built-in terminal (please have a look within Appendix for more details)
+ - run the application within debug session. As a result Green LED should toogle each second and within terminal there should be "Homework exercise" message displayed.
   
 ![Final app](./img/App_run.gif)
 
