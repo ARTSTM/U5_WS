@@ -34,6 +34,7 @@
 ![U5_Lib_Install](./img/U5_Lib_install.gif)
 
 In case of library installation problems please try an alternative way:
+
  - download **STM32U5 Cube library** (.zip file)
  - run **STM32CubeIDE**
  - go to `Help -> Manage Embedded Software Packages`
@@ -83,7 +84,7 @@ In case of library installation problems please try an alternative way:
   - by selecting `File->New->STM32Project` 
   - by click on `Start new STM32 project` button
   
-  
+
   ![Workspace_start2](./img/New_prj_start_2.gif)
 
 - select STM32**U575ZI**TxQ MCU
