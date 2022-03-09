@@ -6,9 +6,9 @@ Presentation
 ## Dear Participant of STM32U5 Workshop,
 <br>
 
- Welcome to this short step-by-step guide which could help you to prepare to live version of STM32U5 Workshop session.
+Welcome to this short step-by-step guide which could help you to prepare to live version of STM32U5 Workshop session.
 
- You will find here:
+You will find here:
  - all information about prerequisites (software and hardware), 
  - short information about installation process, 
  - links to materials useful for this session
