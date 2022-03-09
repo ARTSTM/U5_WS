@@ -52,6 +52,7 @@ In case you would like to know more about this tool and its usage you can have a
 
 ----
 
+##
 <ainfo>
  **Congratulations** You have completed installation part. Now you are fully prepared for the live workshop session. 
 </ainfo>

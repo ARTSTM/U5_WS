@@ -54,8 +54,6 @@ In case you would like to know more about this tool and its usage you can have a
 ----
 
 
-----
-
 ## Board overview
  
 **NUCLEO-U575ZI-Q** board
