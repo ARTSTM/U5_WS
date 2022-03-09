@@ -7,12 +7,12 @@
     },
     "filesToLoadArr": [
       {
-        "name": "Preparation and homework (live sessions)",
+        "name": "Preparation (live sessions)",
         "path": "/folder1",
         "file": "file_live.md"
       },
       {
-        "name": "Preparation (on-line sessions)",
+        "name": "Preparation and homework (on-line sessions)",
         "path": "/folder1",
         "file": "file_online.md"
       } 
@@ -21,12 +21,12 @@
     "menuStructure": [
       {
         "type": "File",
-        "name": "Preparation and homework (live sessions)",
+        "name": "Preparation (live sessions)",
         "file": "file_live.md"
       },
       {
         "type": "File",
-        "name": "Preparation (on-line sessions)",
+        "name": "Preparation and homework (on-line sessions)",
         "file": "file_online.md"
       }
     ]
