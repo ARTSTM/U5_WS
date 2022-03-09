@@ -7,12 +7,17 @@
     },
     "filesToLoadArr": [
       {
-        "name": "Preparation (live sessions)",
+        "name": "Preparation to STM32U5 workshop",
+        "path": "/folder1",
+        "file": "start.md"
+      },  
+      {
+        "name": "Before live sessions",
         "path": "/folder1",
         "file": "file_live.md"
       },
       {
-        "name": "Preparation and homework (on-line sessions)",
+        "name": "Before on-line sessions",
         "path": "/folder1",
         "file": "file_online.md"
       } 
