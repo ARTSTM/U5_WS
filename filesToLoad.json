@@ -12,12 +12,12 @@
         "file": "start.md"
       },  
       {
-        "name": "Before live sessions",
+        "name": "Preparation before STM32U5 workshop live sessions",
         "path": "/folder1",
         "file": "file_live.md"
       },
       {
-        "name": "Before on-line sessions",
+        "name": "Preparation and homework before STM32U5 workshop on-line sessions",
         "path": "/folder1",
         "file": "file_online.md"
       } 
@@ -26,12 +26,12 @@
     "menuStructure": [
       {
         "type": "File",
-        "name": "Preparation (live sessions)",
+        "name": "Before live sessions",
         "file": "file_live.md"
       },
       {
         "type": "File",
-        "name": "Preparation and homework (on-line sessions)",
+        "name": "Before on-line sessions",
         "file": "file_online.md"
       }
     ]
