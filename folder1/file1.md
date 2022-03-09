@@ -2,16 +2,16 @@
 
 ## Prerequisites
 - Hardware:
-  - **NUCLEO-U575ZI-Q** board
-  - **micro USB** cable
-  - `[optionally]` **X-NUCLEO-LPM01** board
-  - `[optionally]` **micro USB** cable
-  - `[optionally]` **2 female-female wires** (min 10cm length) to connect gold pins 
+  - **PC with MS Windows 10 operating system**
+  - **2 micro USB** cables
+  - **2 female-female wires** (min 10cm length) to connect gold pins 
+  - **NUCLEO-U575ZI-Q** board (will be delivered on the session)
+  - **STM32L562E-DK** board (will be delivered on the session)
 - Software (PC with **MS Windows 10** operating system):
-  - **STM32CubeIDE** in version x.x.x
-  - **STM32U5 Cube library** in version x.x.x
+  - **STM32CubeIDE** in version 1.9.0
+  - **STM32U5 Cube library** in version 1.1.0
+  - **STM32Cube Monitor Power** in version 1.1.1
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
-  - `[optionally]` **STM32Cube Monitor Power** in version x.x.x
 
 ----
 
@@ -23,7 +23,7 @@
 ----
 
 ## Installation process
-- download **STM32CubeIDE** v x.x.x from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
+- download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
 - Install **STM32CubeIDE** (if not yet done)
 - download and install **STM32U5 Cube library** (if not done yet):
   - run **STM32CubeIDE**
@@ -41,6 +41,24 @@ In case of library installation problems please try an alternative way:
  - within packager manager window use option `From local` 
   
 ![U5_Lib_Install_from_local](./img/U5_Lib_install_from_local.gif)
+
+- download and install **STM32CubeMonitor-Power** (if not yet done) from [here](https://www.st.com/en/development-tools/stm32cubemonpwr.html):
+
+In case you would like to know more about this tool and its usage you can have a look at dedicated video.
+
+----
+
+## **In case you will participate to live workshop session** you have completed installation part. Now you are fully prepared for the live workshop session. ##
+----
+
+
+----
+## **In case you are registered to on-line version of this session** please follow next parts related to tools installation checkup. ## 
+## For this you would need: ##
+##  -  NUCLEO-U575ZI-Q board ##
+##  -  one micro-USB cable ##
+##  -  PC with preinstalled software ##
+
 ----
 
 ## Board overview
