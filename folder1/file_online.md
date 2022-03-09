@@ -1,6 +1,22 @@
 ----!
 Presentation
 ----!
+# Introduction
+
+Dear Participant of STM32U5 on-line Workshop,
+
+Welcome to this short step-by-step guide which could help you to prepare to on-line version of STM32U5 Workshop session.
+<br>
+You will find here;
+- all information about prerequisites (software and hardware), 
+- short information about installation process, 
+- links to materials useful for this session
+- step by step guide on simple exercise on NUCLEO-L575ZI-Q board using STM32CubeIDE toolchain which could help you to verify your installation process
+
+In case of any questions / problems please contact us on [link](community.st.com)
+
+Yours, 
+STMicroelectronics 
 
 # Prerequisites
 - Hardware:
@@ -206,7 +222,7 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 
 ----
 
-# **Appendix** - configuration and start built-in terminal within **STM32CubeIDE**
+# **Appendix** - configuration and start **STM32CubeIDE** built-in terminal 
 
 ## You can follow dedicated video on this topic [here from 8:50](https://www.youtube.com/watch?v=JWOV4j5fCS4&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=11&t=569s)
 
