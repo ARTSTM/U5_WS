@@ -16,7 +16,7 @@ You will find here:
 
 <br>
 
-**Important notice. Both boards: NUCLEO-U575ZI-Q and STM32L562E-DK will be iprovided to you just before the session.**
+**Important notice. Both boards: NUCLEO-U575ZI-Q and STM32L562E-DK will be provided to you just before the session.**
 
 To navigate within this manual, please use navigation buttons:
 <br>
