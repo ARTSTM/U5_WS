@@ -20,14 +20,24 @@
     
     "menuStructure": [
       {
-        "type": "File",
+        "type": "Folder",
         "name": "Preparation and homework (live sessions)",
-        "file": "file1.md"
+        "children":[
+            {
+                "type": "File",
+                "name": "Preparation and homework (live sessions)",
+                "file": "file1.md"
+            }
+         ]
       },
-      {
-        "type": "File",
+        "type": "Folder",
         "name": "Preparation (on-line sessions)",
-        "file": "file1.md"
-      }
+        "children":[  
+            {
+                "type": "File",
+                "name": "Preparation (on-line sessions)",
+                "file": "file1.md"
+            }
+        ]
     ]
   }
