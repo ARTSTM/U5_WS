@@ -4,6 +4,7 @@ Presentation
 
 # Welcome letter
 ## Dear Participant of STM32U5 Workshop,
+<br>
 
  Welcome to this short step-by-step guide which could help you to prepare to live version of STM32U5 Workshop session.
 

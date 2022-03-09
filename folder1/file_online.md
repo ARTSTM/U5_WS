@@ -4,6 +4,7 @@ Presentation
 
 # Introduction
 ## Dear Participant of STM32U5 on-line Workshop,
+<br>
 
 Welcome to this short step-by-step guide which could help you to prepare to on-line version of STM32U5 Workshop session.
 
