@@ -6,20 +6,23 @@ Presentation
 ## Dear Participant of STM32U5 Workshop,
 <br>
 
-## Welcome to this short step-by-step guide which could help you to prepare to live version of STM32U5 Workshop session.
+ Welcome to this short step-by-step guide which could help you to prepare to live version of STM32U5 Workshop session.
 <br>
 
-## You will find here:
-## - all information about prerequisites (software and hardware), 
-## - short information about installation process, 
-## - links to materials useful for this session
+ You will find here:
+ - all information about prerequisites (software and hardware), 
+ - short information about installation process, 
+ - links to materials useful for this session
 
-## Additionally, in appendixes you can find some basic information about the board we will use durig the session and useful information about configuraiton and usage of STM32cubeIDE built in terminal
+Additionally, in appendixes you can find some basic information about the board we will use durig the session and useful information about configuraiton and usage of STM32cubeIDE built in terminal
 <br>
 
-## In case of any questions / problems please contact us on [link](community.st.com)
+To navigate within this manual, please use navigation buttons:
+  ![navigation](./img/navigation.gif)
 
-## See you on our STM32U5 Workshop session
+In case of any questions / problems please contact us on [link](community.st.com)
+
+See you on STM32U5 Workshop live session
 <br>
 
 ## Yours, 
