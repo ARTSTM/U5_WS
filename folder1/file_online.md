@@ -2,9 +2,7 @@
 Presentation
 ----!
 
-# STM32U5 Workshop - preparation to the online session
-
-## Prerequisites
+# Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system**
   - **2 micro USB** cables
@@ -19,14 +17,14 @@ Presentation
 
 ----
 
-## Materials for the session
+# Materials for the session
 - slides
 - solutions of the projects
 - documentation
   
 ----
 
-## Installation process
+# Installation process
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
 - Install **STM32CubeIDE** (if not yet done)
 - download and install **STM32U5 Cube library** (if not done yet):
@@ -54,7 +52,7 @@ In case you would like to know more about this tool and its usage you can have a
 ----
 
 
-## Board overview
+# Board overview
  
 **NUCLEO-U575ZI-Q** board
 [schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
@@ -62,14 +60,14 @@ In case you would like to know more about this tool and its usage you can have a
 
 ----
 
-## **STM32CubeIDE** - basic project creation
-### **Application description**
+# **STM32CubeIDE** - basic project creation
+## **Application description**
  - send some data over USART1 (to be monitored by terminal application)
  - control Green LED by channel2 of Timer8 (1 second period blinks)
 
 ----
 
-### **Task definition**
+## **Task definition**
 - Using STM32CubeIDE:
  - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
  - Configure USART1:
@@ -85,7 +83,7 @@ In case you would like to know more about this tool and its usage you can have a
 
 ----
 
-### **Step1** - project creation and peripherals configuration
+## **Step1** - project creation and peripherals configuration
  - Run **STM32CubeIDE**
  - Specify workspace location (i.e. `C:\_Work\U5_WS`)
 
@@ -149,7 +147,7 @@ In case you would like to know more about this tool and its usage you can have a
 
 ----
 
-### **Step2** - coding part (`main.c` file)
+## **Step2** - coding part (`main.c` file)
 
 
 Define the buffer of bytes to be sent over **USART1** (`USER CODE PV` section):
@@ -180,7 +178,7 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 
 ----
 
-### **Step 3** - build the project, run the application
+## **Step 3** - build the project, run the application
 - Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
 
 ![Project build](./img/Prj_build.gif)
@@ -208,9 +206,9 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 
 ----
 
-## **Appendix** - configuration and start built-in terminal within **STM32CubeIDE**
+# **Appendix** - configuration and start built-in terminal within **STM32CubeIDE**
 
-### You can follow dedicated video on this topic [here from 8:50](https://www.youtube.com/watch?v=JWOV4j5fCS4&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=11&t=569s)
+## You can follow dedicated video on this topic [here from 8:50](https://www.youtube.com/watch?v=JWOV4j5fCS4&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=11&t=569s)
 
 - Being in the debug session (debug perspective), please go to Console window (bottom part of the screen) 
 - select `New -> 3 Command Shell Console` 

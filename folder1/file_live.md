@@ -2,9 +2,7 @@
 Presentation
 ----!
 
-# STM32U5 Workshop - preparation to the live session
-
-## Prerequisites
+# Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system**
   - **2 micro USB** cables
@@ -19,14 +17,14 @@ Presentation
 
 ----
 
-## Materials for the session
+# Materials for the session
 - slides
 - solutions of the projects
 - documentation
   
 ----
 
-## Installation process
+# Installation process
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
 - Install **STM32CubeIDE** (if not yet done)
 - download and install **STM32U5 Cube library** (if not done yet):
@@ -60,7 +58,7 @@ In case you would like to know more about this tool and its usage you can have a
 ----
 
 
-## **Appendix A** - Board overview
+# **Appendix A** - Board overview
  
 **NUCLEO-U575ZI-Q** board
 [schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
@@ -70,7 +68,7 @@ In case you would like to know more about this tool and its usage you can have a
 
 
 
-## **Appendix B** - configuration and start built-in terminal within **STM32CubeIDE**
+# **Appendix B** - configuration and start built-in terminal within **STM32CubeIDE**
 
 ### You can follow dedicated video on this topic [here from 8:50](https://www.youtube.com/watch?v=JWOV4j5fCS4&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=11&t=569s)
 
