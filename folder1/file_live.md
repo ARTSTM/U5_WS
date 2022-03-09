@@ -3,9 +3,8 @@ Presentation
 ----!
 
 # Introduction
-
 Dear Participant of STM32U5 Workshop,
-
+<br>
 Welcome to this short step-by-step guide which could help you to prepare to live version of STM32U5 Workshop session.
 <br>
 You will find here;
@@ -13,13 +12,13 @@ You will find here;
 - short information about installation process, 
 - links to materials useful for this session
 - in appendixes you can find some basic information about the board we will use durig the session and useful information about configuraiton and usage of STM32cubeIDE built in terminal
-
+<br>
 In case of any questions / problems please contact us on [link](community.st.com)
-
+<br>
 See you on our STM32U5 Workshop session
 Yours, 
 STMicroelectronics 
-
+<br>
 # Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system**
@@ -34,12 +33,12 @@ STMicroelectronics
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
 
 ----
-
+<br>
 # Materials for the session
 - slides
 - solutions of the projects
 - documentation
-  
+  <br>
 ----
 
 # Installation process
@@ -50,22 +49,21 @@ STMicroelectronics
   - go to `Help -> Manage Embedded Software Packages`
   - within package manager window find `STM32U5`, unroll it and select newest available version
   - press `install now`
-
+<br>
 ![U5_Lib_Install](./img/U5_Lib_install.gif)
-
+<br>
 In case of library installation problems please try an alternative way:
-
  - download **STM32U5 Cube library** (.zip file)
  - run **STM32CubeIDE**
  - go to `Help -> Manage Embedded Software Packages`
  - within packager manager window use option `From local` 
-  
+<br>  
 ![U5_Lib_Install_from_local](./img/U5_Lib_install_from_local.gif)
-
+<br>
 - download and install **STM32CubeMonitor-Power** (if not yet done) from [here](https://www.st.com/en/development-tools/stm32cubemonpwr.html):
-
+<br>
 In case you would like to know more about this tool and its usage you can have a look at dedicated video.
-
+<br>
 ----
 
 
@@ -77,17 +75,17 @@ In case you would like to know more about this tool and its usage you can have a
 
 
 # **Appendix A** - Board overview
- 
+ <br>
 **NUCLEO-U575ZI-Q** board
 [schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
 ![NUCLEO-U575ZI-Q board](./img/Nucleo_U5_overview.jpg)
-
+<br>
 ----
 
 
-
+<br>
 # **Appendix B** - configuration and start **STM32CubeIDE** built-in terminal  
-
+<br>
 ### You can follow dedicated video on this topic [here from 8:50](https://www.youtube.com/watch?v=JWOV4j5fCS4&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=11&t=569s)
 
 - Being in the debug session (debug perspective), please go to Console window (bottom part of the screen) 
@@ -101,6 +99,6 @@ In case you would like to know more about this tool and its usage you can have a
 - press `OK` on the next window
 - After proper configuration, Console will contain terminal window (already connected)
 - It is possible to disconnect the terminal, connect it or close it
-  
+<br>  
   ![Built-in terminal](./img/IDE_terminal.gif)
 

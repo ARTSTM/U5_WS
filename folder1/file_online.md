@@ -1,10 +1,10 @@
 ----!
 Presentation
 ----!
+
 # Introduction
-
 Dear Participant of STM32U5 on-line Workshop,
-
+<br>
 Welcome to this short step-by-step guide which could help you to prepare to on-line version of STM32U5 Workshop session.
 <br>
 You will find here;
@@ -12,12 +12,12 @@ You will find here;
 - short information about installation process, 
 - links to materials useful for this session
 - step by step guide on simple exercise on NUCLEO-L575ZI-Q board using STM32CubeIDE toolchain which could help you to verify your installation process
-
+<br>
 In case of any questions / problems please contact us on [link](community.st.com)
-
+<br>
 Yours, 
 STMicroelectronics 
-
+<br>
 # Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system**
@@ -32,14 +32,14 @@ STMicroelectronics
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
 
 ----
-
+<br>
 # Materials for the session
 - slides
 - solutions of the projects
 - documentation
-  
+  <br>
 ----
-
+<br>
 # Installation process
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
 - Install **STM32CubeIDE** (if not yet done)
@@ -48,42 +48,41 @@ STMicroelectronics
   - go to `Help -> Manage Embedded Software Packages`
   - within package manager window find `STM32U5`, unroll it and select newest available version
   - press `install now`
-
+<br>
 ![U5_Lib_Install](./img/U5_Lib_install.gif)
-
+<br>
 In case of library installation problems please try an alternative way:
-
  - download **STM32U5 Cube library** (.zip file)
  - run **STM32CubeIDE**
  - go to `Help -> Manage Embedded Software Packages`
  - within packager manager window use option `From local` 
-  
+  <br>
 ![U5_Lib_Install_from_local](./img/U5_Lib_install_from_local.gif)
-
+<br>
 - download and install **STM32CubeMonitor-Power** (if not yet done) from [here](https://www.st.com/en/development-tools/stm32cubemonpwr.html):
-
+<br>
 In case you would like to know more about this tool and its usage you can have a look at dedicated video.
-
-
+<br>
 ----
-
-
+<br>
 # Board overview
- 
+ <br>
 **NUCLEO-U575ZI-Q** board
 [schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
 ![NUCLEO-U575ZI-Q board](./img/Nucleo_U5_overview.jpg)
-
+<br>
 ----
-
+<br>
 # **STM32CubeIDE** - basic project creation
+<br>
 ## **Application description**
  - send some data over USART1 (to be monitored by terminal application)
  - control Green LED by channel2 of Timer8 (1 second period blinks)
-
+<br>
 ----
-
+<br>
 ## **Task definition**
+<br>
 - Using STM32CubeIDE:
  - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
  - Configure USART1:
@@ -96,22 +95,21 @@ In case you would like to know more about this tool and its usage you can have a
    - with PWM generation on channel2 (PC7 - green LED (LD1) connection), 
    - 2 seconds period (combination of prescaler and autoreload value), 
    - 50% duty cycle (pulse settings for channel2)
-
+<br>
 ----
-
+<br>
 ## **Step1** - project creation and peripherals configuration
  - Run **STM32CubeIDE**
  - Specify workspace location (i.e. `C:\_Work\U5_WS`)
-
+<br>
 ![Workspace_start](./img/New_prj_start.gif)
-
+<br>
 - Start new project using one of the below methods:
   - by selecting `File->New->STM32Project` 
   - by click on `Start new STM32 project` button
-  
-
+  <br>
   ![Workspace_start2](./img/New_prj_start_2.gif)
-
+<br>
 - select STM32**U575ZI**TxQ MCU
 - press `Next` button
 - within STM32 Project window:
@@ -119,14 +117,14 @@ In case you would like to know more about this tool and its usage you can have a
   - select option **without TrustZone**
   - press `Finish` button
   - on warning pop-up window press `Yes` button
-  
+  <br>
    ![Workspace_start3](./img/New_prj_start_3.gif)
-
+<br>
 - within **Clock Configuration** tab:
   - keep the default settings (4MHz based on MSI)
-
+<br>
   ![Clock configuration](./img/Clock_conf.gif)
-
+<br>
 - Peripherals configuration: Pinout&Configuration tab
 - **USART1 configuration** (Connectivity group)
   - select Asynchronous mode
@@ -134,86 +132,85 @@ In case you would like to know more about this tool and its usage you can have a
     - Basic parameters: 115200bps, 8bits data, 1 stop bit, no parity
     - Pins assignment: PA9, PA10
     - no interrupts, no DMA usage
-  
+  <br>
     ![USART1 configuration](./img/USART1_conf.gif)
-
+<br>
 - **Timer8 configuration** (Timers group)
   - Clock Source: internal clock
   - Channel2: PWM Generation CH2 (on PC7 pin). In case of different pin assignment, press Ctrl and left button on mouse over this pin, then drag the pin on the highlighted PC7 location and relase mouse button and then Ctrl key
   - Parameters Settings:
     - Prescaler and Counter Period to have 2s period (i.e. 3999, 1999)
     - Pulse to have 50% duty cycle (i.e. 1000)
-  
+  <br>
  ![Timer8 configuration](./img/TIM8_conf.gif)
-
+<br>
 - **Project settings**
   - select `Project Manager` tab
   - check project location (.ioc file)
   - check project name
-
+<br>
    ![Project settings](./img/Prj_settings.gif)
-
+<br>
   - generate project by one of the ways:
     - by pressing "gear" icon
     - by select `Project->Generate Code`
     - by pressing **Alt+K**
   - we will not use ICACHE in this example, thus press `Yes` on `Warning Code Generation` pop-up window
-
+<br>
   ![Project generation](./img/Prj_gen.gif)
-
+<br>
 ----
-
+<br>
 ## **Step2** - coding part (`main.c` file)
-
-
+<br>
 Define the buffer of bytes to be sent over **USART1** (`USER CODE PV` section):
-
+<br>
 ```c
 /* USER CODE BEGIN PV */
 uint8_t buffer[]={"Homework exercise\n"};
 ```
-
+<br>
 ![Coding1](./img/Coding1.gif)
-
+<br>
 Start transmit of the data over **USART1** using prepared buffer and ***polling*** method (`USER CODE 2` section):
-
+<br>
 ```c
 /* USER CODE 2 BEGIN */
 HAL_UART_Transmit(&huart1, buffer, 18, 200);
 ```
-
+<br>
 ![Coding2](./img/Coding2.gif)
-
+<br>
 Start **Timer8** in PWM mode on its ***Channel2*** according to its configuration (the same section as above):
-
+<br>
 ```c
 HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 ```
-
+<br>
 ![Coding3](./img/Coding3.gif)
-
+<br>
 ----
-
+<br>
 ## **Step 3** - build the project, run the application
 - Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
-
+<br>
 ![Project build](./img/Prj_build.gif)
-
+<br>
 - Connect board to PC using micro-USB cable
-
+<br>
 ![Board connection](./img/Nucleo_connect.gif)
-
+<br>
  - Start the debug session using `bug` icon or `Run->debug` or by pressing **F11**
  - All the settings should be automatically set based on your compiled project. Press `OK` button
  - Select `Switch` within `Configure Perspective Switch` dialog which is informing about new (debug one) windows setup within STM32CubeIDE application.
-
+<br>
 ![Project debug](./img/Prj_debug.gif)
-
+<br>
  - Start terminal application and run it for virtual COM port number assigned to the NUCLEO board with settings: 115200bps, 8bits data, 1 stop bit, no parity, no HW control. As an alternative you can use STM32CubeIDE built-in terminal (please have a look within Appendix for more details)
  - run the application within debug session. As a result Green LED should toogle each second and within terminal there should be "Homework exercise" message displayed.
-  
+  <br>
 ![Final app](./img/App_run.gif)
-
+<br>
 ----
 
 <ainfo>
@@ -221,11 +218,11 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 </ainfo>
 
 ----
-
+<br>
 # **Appendix** - configuration and start **STM32CubeIDE** built-in terminal 
-
+<br>
 ## You can follow dedicated video on this topic [here from 8:50](https://www.youtube.com/watch?v=JWOV4j5fCS4&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=11&t=569s)
-
+<br>
 - Being in the debug session (debug perspective), please go to Console window (bottom part of the screen) 
 - select `New -> 3 Command Shell Console` 
 - specify `Connection Type` to **Serial Port**
@@ -237,6 +234,6 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 - press `OK` on the next window
 - After proper configuration, Console will contain terminal window (already connected)
 - It is possible to disconnect the terminal, connect it or close it
-  
+<br>  
   ![Built-in terminal](./img/IDE_terminal.gif)
 
