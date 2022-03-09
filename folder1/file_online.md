@@ -203,6 +203,7 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 ![Final app](./img/App_run.gif)
 
 ----
+
 <ainfo>
  **Congratulations** You have completed homework part. Now you are fully prepared for the online workshop session 
 </ainfo>

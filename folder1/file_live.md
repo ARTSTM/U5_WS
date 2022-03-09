@@ -51,9 +51,11 @@ In case of library installation problems please try an alternative way:
 In case you would like to know more about this tool and its usage you can have a look at dedicated video.
 
 ----
+
 <ainfo>
- **Congratulations** You have completed homework part. Now you have completed installation part. Now you are fully prepared for the live workshop session. 
+ **Congratulations** You have completed installation part. Now you are fully prepared for the live workshop session. 
 </ainfo>
+
 ----
 
 
