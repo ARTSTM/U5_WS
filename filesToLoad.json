@@ -30,6 +30,7 @@
             }
          ]
       },
+      {
         "type": "Folder",
         "name": "Preparation (on-line sessions)",
         "children":[  
@@ -39,5 +40,6 @@
                 "file": "file1.md"
             }
         ]
+      }
     ]
   }
