@@ -41,8 +41,9 @@ In case of any questions / problems please contact us on [link](https://communit
   - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board
 - Software (PC with **MS Windows 10** operating system):
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
-    - **[STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)** in version 1.1.0
+  - **[STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)** in version 1.1.0
   - **[STM32Cube Monitor Power](https://www.st.com/en/development-tools/stm32cubemonpwr.html)** in version 1.1.1
+  - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
 <br>
 # Materials for the session
