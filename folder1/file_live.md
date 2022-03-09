@@ -2,7 +2,7 @@
 Presentation
 ----!
 
-# Welcome letter
+# Introduction
 ## Dear Participant of STM32U5 Workshop,
 <br>
 
