@@ -18,7 +18,11 @@ Additionally, in appendixes you can find some basic information about the board 
 <br>
 
 To navigate within this manual, please use navigation buttons:
+<br>
+
   ![navigation](./img/navigation.gif)
+
+<br>
 
 In case of any questions / problems please contact us on [link](community.st.com)
 

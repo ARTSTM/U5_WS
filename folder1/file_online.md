@@ -17,6 +17,8 @@ You will find here;
 <br>
 
 To navigate within this manual, please use navigation buttons:
+<br>
+
   ![navigation](./img/navigation.gif)
 
 <br>
