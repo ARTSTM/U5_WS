@@ -12,12 +12,12 @@
         "file": "start.md"
       },  
       {
-        "name": "Preparation before STM32U5 workshop live sessions",
+        "name": "STM32U5 Workshop - preparation before live sessions",
         "path": "/folder1",
         "file": "file_live.md"
       },
       {
-        "name": "Preparation and homework before STM32U5 workshop on-line sessions",
+        "name": "STM32U5 Workshop - preparation and homework before on-line sessions",
         "path": "/folder1",
         "file": "file_online.md"
       } 
