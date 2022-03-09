@@ -13,7 +13,7 @@ You will find here:
  - all information about prerequisites (software and hardware), 
  - short information about installation process, 
  - links to materials useful for this session
- - step by step guide on simple exercise on NUCLEO-L575ZI-Q board using STM32CubeIDE toolchain which could help you to verify your installation process
+ - step by step guide on simple exercise for NUCLEO-U575ZI-Q board using STM32CubeIDE toolchain which could help you to verify your installation process
 
 <br>
 
