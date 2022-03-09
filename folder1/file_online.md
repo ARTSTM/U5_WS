@@ -1,8 +1,7 @@
 ---- !
-
 Presentation
-
 ----!
+
 # STM32U5 Workshop - preparation to the online session
 
 ## Prerequisites
