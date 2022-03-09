@@ -24,7 +24,7 @@ To navigate within this manual, please use navigation buttons:
   ![navigation](./img/navigation.gif)
 
 <br>
-In case of any questions / problems please contact us on [link](community.st.com)
+In case of any questions / problems please contact us on [link](https://community.st.com)
 <br>
 
 ## Yours, 
