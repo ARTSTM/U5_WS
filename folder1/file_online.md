@@ -5,18 +5,25 @@ Presentation
 # Introduction
 Dear Participant of STM32U5 on-line Workshop,
 <br>
+
 Welcome to this short step-by-step guide which could help you to prepare to on-line version of STM32U5 Workshop session.
 <br>
+
 You will find here;
 - all information about prerequisites (software and hardware), 
 - short information about installation process, 
 - links to materials useful for this session
 - step by step guide on simple exercise on NUCLEO-L575ZI-Q board using STM32CubeIDE toolchain which could help you to verify your installation process
+
 <br>
 In case of any questions / problems please contact us on [link](community.st.com)
+
 <br>
 Yours, 
+<br>
+
 STMicroelectronics 
+
 <br>
 # Prerequisites
 - Hardware:
