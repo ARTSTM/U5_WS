@@ -15,6 +15,8 @@ You will find here:
  - step by step guide on simple exercise on NUCLEO-L575ZI-Q board using STM32CubeIDE toolchain which could help you to verify your installation process
 <br>
 
+**Important notice. Both boards: NUCLEO-U575ZI-Q and STM32L562E-DK will be iprovided to you just before the session.**
+
 To navigate within this manual, please use navigation buttons:
 <br>
 
@@ -33,12 +35,12 @@ In case of any questions / problems please contact us on [link](community.st.com
   - **PC with MS Windows 10 operating system**
   - **2 micro USB** cables
   - **2 female-female wires** (min 10cm length) to connect gold pins 
-  - **NUCLEO-U575ZI-Q** board 
-  - **STM32L562E-DK** board 
+  - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board 
+  - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board
 - Software (PC with **MS Windows 10** operating system):
-  - **STM32CubeIDE** in version 1.9.0
-  - **STM32U5 Cube library** in version 1.1.0
-  - **STM32Cube Monitor Power** in version 1.1.1
+  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
+    - **[STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)** in version 1.1.0
+  - **[STM32Cube Monitor Power](https://www.st.com/en/development-tools/stm32cubemonpwr.html)** in version 1.1.1
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
 <br>
 # Materials for the session

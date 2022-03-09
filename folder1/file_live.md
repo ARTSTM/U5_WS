@@ -37,12 +37,12 @@ See you on STM32U5 Workshop live session
   - **PC with MS Windows 10 operating system**
   - **2 micro USB** cables
   - **2 female-female wires** (min 10cm length) to connect gold pins 
-  - **NUCLEO-U575ZI-Q** board (will be delivered on the session)
-  - **STM32L562E-DK** board (will be delivered on the session)
+  - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board (will be delivered on the session)
+  - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board (will be delivered on the session)
 - Software (PC with **MS Windows 10** operating system):
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
-  - **STM32U5 Cube library** in version 1.1.0
-  - **STM32Cube Monitor Power** in version 1.1.1
+    - **[STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)** in version 1.1.0
+  - **[STM32Cube Monitor Power](https://www.st.com/en/development-tools/stm32cubemonpwr.html)** in version 1.1.1
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
 <br>
 # Materials for the session
