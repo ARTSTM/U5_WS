@@ -9,12 +9,12 @@
       {
         "name": "Preparation and homework (live sessions)",
         "path": "/folder1",
-        "file": "file1.md"
+        "file": "file_live.md"
       },
       {
         "name": "Preparation (on-line sessions)",
         "path": "/folder1",
-        "file": "file1.md"
+        "file": "file_online.md"
       } 
     ],
     
@@ -22,12 +22,12 @@
       {
         "type": "File",
         "name": "Preparation and homework (live sessions)",
-        "file": "file1.md"
+        "file": "file_live.md"
       },
       {
         "type": "File",
         "name": "Preparation (on-line sessions)",
-        "file": "file1.md"
+        "file": "file_online.md"
       }
     ]
   }
