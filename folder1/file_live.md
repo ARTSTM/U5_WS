@@ -40,7 +40,7 @@ See you on STM32U5 Workshop live session
   - **NUCLEO-U575ZI-Q** board (will be delivered on the session)
   - **STM32L562E-DK** board (will be delivered on the session)
 - Software (PC with **MS Windows 10** operating system):
-  - **STM32CubeIDE** in version 1.9.0
+  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
   - **STM32U5 Cube library** in version 1.1.0
   - **STM32Cube Monitor Power** in version 1.1.1
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
