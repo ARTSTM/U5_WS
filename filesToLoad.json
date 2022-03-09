@@ -7,10 +7,15 @@
     },
     "filesToLoadArr": [
       {
-        "name": "Preparation and homework",
+        "name": "Preparation and homework (live sessions)",
         "path": "/folder1",
         "file": "file1.md"
       }
+      {
+        "name": "Preparation (on-line sessions)",
+        "path": "/folder1",
+        "file": "file1.md"
+      } 
     ],
     "menuStructure": [
       {
