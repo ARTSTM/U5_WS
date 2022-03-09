@@ -31,15 +31,12 @@ STMicroelectronics
   - **STM32U5 Cube library** in version 1.1.0
   - **STM32Cube Monitor Power** in version 1.1.1
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
-
-----
 <br>
 # Materials for the session
 - slides
 - solutions of the projects
 - documentation
   <br>
-----
 
 # Installation process
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
@@ -64,6 +61,7 @@ In case of library installation problems please try an alternative way:
 <br>
 In case you would like to know more about this tool and its usage you can have a look at dedicated video.
 <br>
+
 ----
 
 
@@ -80,6 +78,7 @@ In case you would like to know more about this tool and its usage you can have a
 [schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
 ![NUCLEO-U575ZI-Q board](./img/Nucleo_U5_overview.jpg)
 <br>
+
 ----
 
 

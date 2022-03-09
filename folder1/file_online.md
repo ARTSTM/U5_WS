@@ -30,15 +30,12 @@ STMicroelectronics
   - **STM32U5 Cube library** in version 1.1.0
   - **STM32Cube Monitor Power** in version 1.1.1
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
-
-----
 <br>
 # Materials for the session
 - slides
 - solutions of the projects
 - documentation
   <br>
-----
 <br>
 # Installation process
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
@@ -63,7 +60,7 @@ In case of library installation problems please try an alternative way:
 <br>
 In case you would like to know more about this tool and its usage you can have a look at dedicated video.
 <br>
-----
+
 <br>
 # Board overview
  <br>
@@ -71,7 +68,7 @@ In case you would like to know more about this tool and its usage you can have a
 [schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
 ![NUCLEO-U575ZI-Q board](./img/Nucleo_U5_overview.jpg)
 <br>
-----
+
 <br>
 # **STM32CubeIDE** - basic project creation
 <br>
@@ -79,7 +76,7 @@ In case you would like to know more about this tool and its usage you can have a
  - send some data over USART1 (to be monitored by terminal application)
  - control Green LED by channel2 of Timer8 (1 second period blinks)
 <br>
-----
+
 <br>
 ## **Task definition**
 <br>
@@ -96,7 +93,9 @@ In case you would like to know more about this tool and its usage you can have a
    - 2 seconds period (combination of prescaler and autoreload value), 
    - 50% duty cycle (pulse settings for channel2)
 <br>
+
 ----
+
 <br>
 ## **Step1** - project creation and peripherals configuration
  - Run **STM32CubeIDE**
@@ -159,7 +158,9 @@ In case you would like to know more about this tool and its usage you can have a
 <br>
   ![Project generation](./img/Prj_gen.gif)
 <br>
+
 ----
+
 <br>
 ## **Step2** - coding part (`main.c` file)
 <br>
@@ -189,7 +190,9 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 <br>
 ![Coding3](./img/Coding3.gif)
 <br>
+
 ----
+
 <br>
 ## **Step 3** - build the project, run the application
 - Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
@@ -210,7 +213,8 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
  - run the application within debug session. As a result Green LED should toogle each second and within terminal there should be "Homework exercise" message displayed.
   <br>
 ![Final app](./img/App_run.gif)
-<br>
+<br>.
+
 ----
 
 <ainfo>
@@ -218,6 +222,7 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 </ainfo>
 
 ----
+
 <br>
 # **Appendix** - configuration and start **STM32CubeIDE** built-in terminal 
 <br>
