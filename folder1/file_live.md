@@ -14,7 +14,7 @@ You will find here:
  - short information about installation process, 
  - links to materials useful for this session
 
-Additionally, in appendixes you can find some basic information about the board we will use durig the session and useful information about configuraiton and usage of STM32cubeIDE built in terminal
+Additionally, in appendixes you can find some basic information about the board we will use durig the session and useful information about configuraiton and usage of STM32CubeIDE built in terminal
 <br>
 
 To navigate within this manual, please use navigation buttons:
