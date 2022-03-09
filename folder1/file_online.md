@@ -9,6 +9,7 @@ Presentation
 Welcome to this short step-by-step guide which could help you to prepare to on-line version of STM32U5 Workshop session.
 
 You will find here:
+
  - all information about prerequisites (software and hardware), 
  - short information about installation process, 
  - links to materials useful for this session
