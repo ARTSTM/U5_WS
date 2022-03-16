@@ -181,27 +181,33 @@ In case you would like to know more about this tool and its usage you can have a
 <br>
 Define the buffer of bytes to be sent over **USART1** (`USER CODE PV` section):
 <br>
+
 ```c
 /* USER CODE BEGIN PV */
 uint8_t buffer[]={"Homework exercise\n"};
 ```
+
 <br>
 ![Coding1](./img/Coding1.gif)
 <br>
 Start transmit of the data over **USART1** using prepared buffer and ***polling*** method (`USER CODE 2` section):
 <br>
+
 ```c
 /* USER CODE 2 BEGIN */
 HAL_UART_Transmit(&huart1, buffer, 18, 200);
 ```
+
 <br>
 ![Coding2](./img/Coding2.gif)
 <br>
 Start **Timer8** in PWM mode on its ***Channel2*** according to its configuration (the same section as above):
 <br>
+
 ```c
 HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 ```
+
 <br>
 ![Coding3](./img/Coding3.gif)
 <br>
