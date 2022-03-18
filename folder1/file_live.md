@@ -48,6 +48,7 @@ See you on STM32U5 Workshop live session
   - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
 <br>
+
 # Materials for the session
 - presentations
   - Introduction
@@ -100,7 +101,7 @@ In case you would like to know more about this tool and its usage you can have a
 <br>
 ----
 
-## Verification process
+# Verification process
 The purpose of this part is checking whether all software components are installed properly and can run 
 
 ### 1 STM32CubeIDE and STM32U5 Cube library
