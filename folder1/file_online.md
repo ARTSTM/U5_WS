@@ -40,6 +40,7 @@ In case of any questions / problems please contact us on [link](https://communit
   - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board 
   - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board
 - Software (PC with **MS Windows 10** operating system):
+  - **[STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)** in version 6.5.0
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
   - **[STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)** in version 1.1.0
   - **[STM32Cube Monitor Power](https://www.st.com/en/development-tools/stm32cubemonpwr.html)** in version 1.1.1
@@ -53,6 +54,8 @@ In case of any questions / problems please contact us on [link](https://communit
   <br>
 <br>
 # Installation process
+- download **STM32CubeMX** from [here](https://www.st.com/en/development-tools/stm32cubemx.html)
+- install **STM32CubeMX** (if not yet done)
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
 - Install **STM32CubeIDE** (if not yet done)
 - download and install **STM32U5 Cube library** (if not done yet):
@@ -70,6 +73,12 @@ In case of library installation problems please try an alternative way:
  - within packager manager window use option `From local` 
   <br>
 ![U5_Lib_Install_from_local](./img/U5_Lib_install_from_local.gif)
+<br>
+
+<ainfo>
+STM32CubeMX and STM32CubeIDE are using the same repository by default, so installed STM32U5 Cube library will be visible in both tools.
+</ainfo>
+
 <br>
 - download and install **STM32CubeMonitor-Power** (if not yet done) from [here](https://www.st.com/en/development-tools/stm32cubemonpwr.html):
 <br>
