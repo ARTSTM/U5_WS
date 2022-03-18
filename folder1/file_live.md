@@ -90,6 +90,91 @@ In case you would like to know more about this tool and its usage you can have a
 <br>
 ----
 
+## Verification process
+The purpose of this part is checking whether all software components are installed properly and can run 
+
+### 1 STM32CubeIDE and STM32U5 Cube library
+<br>
+## **Task definition**
+<br>
+- Using STM32CubeIDE:
+ - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
+ - Configure USART1:
+   - in asynchronous mode, 
+   - using default settings (115200bps, 8D, 1stop bit, no parity) 
+   - on PA9/PA10 pins
+<br>
+
+----
+
+<br>
+## **Step1** - project creation and peripherals configuration
+ - Run **STM32CubeIDE**
+ - Specify workspace location (i.e. `C:\_Work\U5_WS`)
+<br>
+![Workspace_start](./img/New_prj_start.gif)
+<br>
+- Start new project using one of the below methods:
+  - by selecting `File->New->STM32Project` 
+  - by click on `Start new STM32 project` button
+  <br>
+  ![Workspace_start2](./img/New_prj_start_2.gif)
+<br>
+- select STM32**U575ZI**TxQ MCU
+- press `Next` button
+- within STM32 Project window:
+  - specify project name (i.e. `U5_Basic`)
+  - select option **without TrustZone**
+  - press `Finish` button
+  - on warning pop-up window press `Yes` button
+  <br>
+   ![Workspace_start3](./img/New_prj_start_3.gif)
+<br>
+- within **Clock Configuration** tab:
+  - keep the default settings (4MHz based on MSI)
+<br>
+  ![Clock configuration](./img/Clock_conf.gif)
+<br>
+- Peripherals configuration: Pinout&Configuration tab
+- **USART1 configuration** (Connectivity group)
+  - select Asynchronous mode
+  - keep default settings in configuration:
+    - Basic parameters: 115200bps, 8bits data, 1 stop bit, no parity
+    - Pins assignment: PA9, PA10
+    - no interrupts, no DMA usage
+  <br>
+    ![USART1 configuration](./img/USART1_conf.gif)
+<br>
+
+- **Project settings**
+  - select `Project Manager` tab
+  - check project location (.ioc file)
+  - check project name
+<br>
+   ![Project settings](./img/Prj_settings.gif)
+<br>
+  - generate project by one of the ways:
+    - by pressing "gear" icon
+    - by select `Project->Generate Code`
+    - by pressing **Alt+K**
+  - we will not use ICACHE in this example, thus press `Yes` on `Warning Code Generation` pop-up window
+<br>
+  ![Project generation](./img/Prj_gen.gif)
+<br>
+
+----
+
+## **Step 2** - build the project, run the application
+- Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
+<br>
+![Project build](./img/Prj_build.gif)
+<br>
+
+<ainfo>
+In case of neither errors nor warnings after this process, STM32CubeIDE and STM32U5 library are installed correctly. Last point - debug session will be verified during first hands on part on the workshop.
+</ainfo>
+
+### 2 STM32CubeMonitorPower
 
 <ainfo>
 ## **Congratulations** You have completed installation part. Now you are fully prepared for the live workshop session. 
