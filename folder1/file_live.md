@@ -85,7 +85,7 @@ STM32CubeMX and STM32CubeIDE are using the same repository by default, so instal
 <br>
 - download and install **STM32CubeMonitor-Power** (if not yet done) from [here](https://www.st.com/en/development-tools/stm32cubemonpwr.html):
 <br>
-In case you would like to know more about this tool and its usage you can have a look at dedicated video.
+In case you would like to know more about this tool and its usage you can have a look at dedicated [video](https://youtu.be/COOi_BiPE5U).
 
 <br>
 ----
