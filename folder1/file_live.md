@@ -74,15 +74,18 @@ In case of library installation problems please try an alternative way:
  - within packager manager window use option `From local` 
 <br>  
 ![U5_Lib_Install_from_local](./img/U5_Lib_install_from_local.gif)
-<br>
-- download and install **STM32CubeMonitor-Power** (if not yet done) from [here](https://www.st.com/en/development-tools/stm32cubemonpwr.html):
-<br>
-In case you would like to know more about this tool and its usage you can have a look at dedicated video.
+
 <br>
 
 <ainfo>
 STM32CubeMX and STM32CubeIDE are using the same repository by default, so installed STM32U5 Cube library will be visible in both tools.
 </ainfo>
+
+
+<br>
+- download and install **STM32CubeMonitor-Power** (if not yet done) from [here](https://www.st.com/en/development-tools/stm32cubemonpwr.html):
+<br>
+In case you would like to know more about this tool and its usage you can have a look at dedicated video.
 
 <br>
 ----
