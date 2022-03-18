@@ -104,7 +104,7 @@ In case you would like to know more about this tool and its usage you can have a
 # Verification process
 The purpose of this part is checking whether all software components are installed properly and can run 
 
-### 1 STM32CubeIDE and STM32U5 Cube library
+## ** 1 STM32CubeIDE and STM32U5 Cube library**
 <br>
 ## **Task definition**
 <br>
@@ -185,7 +185,13 @@ The purpose of this part is checking whether all software components are install
 In case of neither errors nor warnings after this process, STM32CubeIDE and STM32U5 library are installed correctly. Last point - debug session will be verified during first hands on part on the workshop.
 </ainfo>
 
-### 2 STM32CubeMonitorPower
+## ** 2 STM32CubeMonitorPower **
+
+Please start STM32CubeMonitorPwr and check that you can see similar window as a final effect.
+<br>
+![STM32CubeMonitorPwr](./img/CubeMonPwr.gif)
+<br>
+
 
 <ainfo>
 ## **Congratulations** You have completed installation part. Now you are fully prepared for the live workshop session. 
