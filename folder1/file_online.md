@@ -248,6 +248,11 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 <br>
  - Start the debug session using `bug` icon or `Run->debug` or by pressing **F11**
  - All the settings should be automatically set based on your compiled project. Press `OK` button
+ - At this moment you may see an information window that your STLink firmware is not up-to-date,
+ - please accept this message and perform autometic upgrade process
+<br>
+![STLink_upgrade](./img/STLink_upgrade.gif)
+<br>
  - Select `Switch` within `Configure Perspective Switch` dialog which is informing about new (debug one) windows setup within STM32CubeIDE application.
 <br>
 ![Project debug](./img/Prj_debug.gif)
