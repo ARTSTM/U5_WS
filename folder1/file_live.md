@@ -36,8 +36,10 @@ See you on STM32U5 Workshop live session
 # Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system**
-  - **2 micro USB** cables ![microUSB cables](./img/uUSB.jpg)
-  - **2 female-female wires** (min 10cm length) to connect gold pins ![microUSB cables](./img/cables.jpg)
+  - **2 micro USB** cables 
+  ![microUSB cables](./img/uUSB.jpg)  ![microUSB cables](./img/uUSB.jpg)
+  - **2 female-female wires** (min 10cm length) to connect gold pins 
+  ![microUSB cables](./img/cables.jpg)
   - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board (will be delivered on the session)
   ![U5_Nucleo](./img/Nucleo_U5_small.gif)
   - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board which will be lent to each participant for the time of the workshop 
