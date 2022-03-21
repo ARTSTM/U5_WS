@@ -46,7 +46,7 @@ See you on STM32U5 Workshop live session
   <br>
   - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board (will be delivered on the session)
   <br>
-  ![U5_Nucleo](./img/Nucleo_U5_small.gif)
+  ![U5_Nucleo](./img/Nucleo_U5_small.jpg)
   <br>
   - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board which will be lent to each participant for the time of the workshop 
   <br>
@@ -247,3 +247,5 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
   - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)
   - [NUCLEO-U575ZI-Q board schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
   <br>
+
+  Alternatively you can download complete set of offline materials from [this link]()

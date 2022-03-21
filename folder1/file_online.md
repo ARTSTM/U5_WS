@@ -35,10 +35,22 @@ In case of any questions / problems please contact us on [link](https://communit
 # Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system**
-  - **2 micro USB** cables
+  - **2 micro USB** cables 
+  <br>
+  ![microUSB cables](./img/uUSB.jpg)  ![microUSB cables](./img/uUSB.jpg)
+  <br>
   - **2 female-female wires** (min 10cm length) to connect gold pins 
+  <br>
+  ![microUSB cables](./img/Cables.gif)
+  <br>
   - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board 
+  <br>
+  ![U5_Nucleo](./img/Nucleo_U5_small.jpg)
+  <br>
   - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board
+  <br>
+  ![L5_DK](./img/STM32L5_DK.jpg)
+  <br>
 - Software (PC with **MS Windows 10** operating system):
   - **[STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)** in version 6.5.0
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
