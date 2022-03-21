@@ -51,6 +51,10 @@ In case of any questions / problems please contact us on [link](https://communit
   <br>
   ![L5_DK](./img/STM32L5_DK.jpg)
   <br>
+  (alternatively you can take your own multimeter with 1uA current measurement range)
+  <br>
+  ![Multimeter](./img/Multimeter.jpg)
+  <br>
 - Software (PC with **MS Windows 10** operating system):
   - **[STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)** in version 6.5.0
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
