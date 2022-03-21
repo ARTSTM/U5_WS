@@ -37,15 +37,25 @@ See you on STM32U5 Workshop live session
 - Hardware:
   - **PC with MS Windows 10 operating system**
   - **2 micro USB** cables 
+  <br>
   ![microUSB cables](./img/uUSB.jpg)  ![microUSB cables](./img/uUSB.jpg)
+  <br>
   - **2 female-female wires** (min 10cm length) to connect gold pins 
+  <br>
   ![microUSB cables](./img/cables.jpg)
+  <br>
   - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board (will be delivered on the session)
+  <br>
   ![U5_Nucleo](./img/Nucleo_U5_small.gif)
+  <br>
   - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board which will be lent to each participant for the time of the workshop 
+  <br>
   ![L5_DK](./img/STM32L5_DK.jpg)
+  <br>
   (alternatively you can take your own multimeter with 1uA current measurement range)
-  ![Multimeter](./img/Mutimeter.jpg)
+  <br>
+  ![Multimeter](./img/Multimeter.jpg)
+  <br>
 - Software (PC with **MS Windows 10** operating system):
   - **[STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)** in version 6.5.0
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
