@@ -17,7 +17,7 @@ You will find here:
 
 <br>
 
-**Important notice. Both boards: NUCLEO-U575ZI-Q and STM32L562E-DK will be provided to you just before the session.**
+**Important notice. NUCLEO-U575ZI-Q board will be provided to you just before the session.**
 
 To navigate within this manual, please use navigation buttons:
 <br>
@@ -47,21 +47,7 @@ In case of any questions / problems please contact us on [link](https://communit
   - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
   
-# Materials for the session
-- presentations
-  - Introduction
-  - Martketing presentation
-  - Installation and verification (current part)
-  - [General Purpose DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/gpdma/2_gpdma_handson_basic_gpdma.md/0)
-  - [Low power modes](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/LP_mode/lpmodes_workflow.md)
-  - [Low Power DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/lpbam/theory.md)
-  - Summary
-- solutions of the projects [link]
-- documentation
-  - [STM32U575 datasheet](https://www.st.com/resource/en/datasheet/stm32u575zi.pdf)
-  - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)
-  - [NUCLEO-U575ZI-Q board schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
-  <br>
+
   
 <br>
 # Installation process
@@ -283,3 +269,19 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 <br>  
   ![Built-in terminal](./img/IDE_terminal.gif)
 
+
+# Materials for the session
+- presentations
+  - Introduction
+  - Martketing presentation
+  - Installation and verification (current part)
+  - [General Purpose DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/gpdma/2_gpdma_handson_basic_gpdma.md/0)
+  - [Low power modes](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/LP_mode/lpmodes_workflow.md)
+  - [Low Power DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/lpbam/theory.md)
+  - Summary
+- solutions of the projects [link]
+- documentation
+  - [STM32U575 datasheet](https://www.st.com/resource/en/datasheet/stm32u575zi.pdf)
+  - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)
+  - [NUCLEO-U575ZI-Q board schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
+  <br>

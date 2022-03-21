@@ -36,10 +36,14 @@ See you on STM32U5 Workshop live session
 # Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system**
-  - **2 micro USB** cables
-  - **2 female-female wires** (min 10cm length) to connect gold pins 
+  - **2 micro USB** cables ![microUSB cables](./img/uUSB.jpg)
+  - **2 female-female wires** (min 10cm length) to connect gold pins ![microUSB cables](./img/cables.jpg)
   - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board (will be delivered on the session)
-  - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board (will be delivered on the session)
+  ![U5_Nucleo](./img/Nucleo_U5_small.gif)
+  - **[STM32L562E-DK](https://www.st.com/en/evaluation-tools/stm32l562e-dk.html)** board which will be lent to each participant for the time of the workshop 
+  ![L5_DK](./img/STM32L5_DK.jpg)
+  (alternatively you can take your own multimeter with 1uA current measurement range)
+  ![Multimeter](./img/Mutimeter.jpg)
 - Software (PC with **MS Windows 10** operating system):
   - **[STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)** in version 6.5.0
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.9.0
@@ -49,21 +53,7 @@ See you on STM32U5 Workshop live session
   - `[optionally]` any **terminal** application (can be used the one from STM32CubeIDE)
 <br>
 
-# Materials for the session
-- presentations
-  - Introduction
-  - Martketing presentation
-  - Installation and verification (current part)
-  - [General Purpose DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/gpdma/2_gpdma_handson_basic_gpdma.md/0)
-  - [Low power modes](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/LP_mode/lpmodes_workflow.md)
-  - [Low Power DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/lpbam/theory.md)
-  - Summary
-- solutions of the projects [link]
-- documentation
-  - [STM32U575 datasheet](https://www.st.com/resource/en/datasheet/stm32u575zi.pdf)
-  - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)
-  - [NUCLEO-U575ZI-Q board schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
-  <br>
+
 
 # Installation process
 - download **STM32CubeMX** from [here](https://www.st.com/en/development-tools/stm32cubemx.html)
@@ -211,6 +201,7 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
 
 
 <br>
+
 # **Appendix B** - configuration and start **STM32CubeIDE** built-in terminal  
 <br>
 ### You can follow dedicated video on this topic [here from 8:50](https://www.youtube.com/watch?v=JWOV4j5fCS4&list=PLnMKNibPkDnFCosVVv98U5dCulE6T3Iy8&index=11&t=569s)
@@ -229,3 +220,18 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
 <br>  
   ![Built-in terminal](./img/IDE_terminal.gif)
 
+# Materials for the session
+- presentations
+  - Introduction
+  - Martketing presentation
+  - Installation and verification (current part)
+  - [General Purpose DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/gpdma/2_gpdma_handson_basic_gpdma.md/0)
+  - [Low power modes](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/LP_mode/lpmodes_workflow.md)
+  - [Low Power DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/lpbam/theory.md)
+  - Summary
+- solutions of the projects [link]
+- documentation
+  - [STM32U575 datasheet](https://www.st.com/resource/en/datasheet/stm32u575zi.pdf)
+  - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)
+  - [NUCLEO-U575ZI-Q board schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
+  <br>
