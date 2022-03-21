@@ -42,7 +42,7 @@ See you on STM32U5 Workshop live session
   <br>
   - **2 female-female wires** (min 10cm length) to connect gold pins 
   <br>
-  ![microUSB cables](./img/cables.jpg)
+  ![microUSB cables](./img/Cables.gif)
   <br>
   - **[NUCLEO-U575ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html)** board (will be delivered on the session)
   <br>
