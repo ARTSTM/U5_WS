@@ -207,7 +207,7 @@ uint8_t buffer[]={"Homework exercise\n"};
 ```
 
 <br>
-![Coding1](./img/Coding1.gif)
+![Coding1](./img/Code_copy1.gif)
 <br>
 Start transmit of the data over **USART1** using prepared buffer and ***polling*** method (`USER CODE 2` section):
 <br>
@@ -217,7 +217,7 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
 ```
 
 <br>
-![Coding2](./img/Coding2.gif)
+![Coding2](./img/Code_copy1.gif)
 <br>
 
 ----
@@ -226,7 +226,7 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
 ## **Step 3** - build the project
 - Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
 <br>
-![Project build](./img/Prj_build.gif)
+![Project build](./img/Build.gif)
 <br>
 
 <ainfo>
@@ -314,7 +314,7 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
 <br>
 - Select `Switch` within `Configure Perspective Switch` dialog which is informing about new (debug one) windows setup within STM32CubeIDE application.
 <br>
-![Project debug](./img/Prj_debug.gif)
+![Project debug](./img/start_debug.gif)
 <br>
 - Start terminal application and run it for virtual COM port number assigned to the NUCLEO board with settings: 115200bps, 8bits data, 1 stop bit, no parity, no HW control. As an alternative you can use STM32CubeIDE built-in terminal (please have a look within Appendix for more details)
 - run the application within debug session. As a result within terminal there should be "Homework exercise" message displayed.
