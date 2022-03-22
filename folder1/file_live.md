@@ -217,7 +217,7 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
 ```
 
 <br>
-![Coding2](./img/Code_copy1.gif)
+![Coding2](./img/Code_copy2.gif)
 <br>
 
 ----
