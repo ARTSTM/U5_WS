@@ -104,7 +104,9 @@ In case you would like to know more about this tool and its usage you can have a
 ----
 
 # Verification process
-The purpose of this part is checking whether all software components are installed properly and can run 
+The purpose of this part is checking whether all software components are installed properly.
+<br>
+Additionally prepared test project can be a base for next hands-on parts during the workshop.
 
 ## ** 1 STM32CubeIDE and STM32U5 Cube library**
 <br>
@@ -113,6 +115,20 @@ The purpose of this part is checking whether all software components are install
 - Using STM32CubeIDE:
  - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
  - Configure USART1:
+   - in asynchronous mode, 
+   - using default settings (115200bps, 8D, 1stop bit, no parity) 
+   - on PA9/PA10 pins
+<br>
+
+----
+
+<br>
+## **Task definition**
+<br>
+- Using STM32CubeIDE:
+ - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
+ - Configure ICACHE (in any of available modes)
+ - Select and configure USART1:
    - in asynchronous mode, 
    - using default settings (115200bps, 8D, 1stop bit, no parity) 
    - on PA9/PA10 pins
@@ -149,6 +165,11 @@ The purpose of this part is checking whether all software components are install
   ![Clock configuration](./img/Clock_conf.gif)
 <br>
 - Peripherals configuration: Pinout&Configuration tab
+- **ICACHE configuration** (System Core group)
+  - select either 1-way or 2-ways (we will not focus on performance within this workshop)
+  <br>
+  ![ICACHE configuration](./img/ICACHE_conf.gif)
+  <br>
 - **USART1 configuration** (Connectivity group)
   - select Asynchronous mode
   - keep default settings in configuration:
@@ -158,7 +179,6 @@ The purpose of this part is checking whether all software components are install
   <br>
     ![USART1 configuration](./img/USART1_conf.gif)
 <br>
-
 - **Project settings**
   - select `Project Manager` tab
   - check project location (.ioc file)
@@ -170,14 +190,40 @@ The purpose of this part is checking whether all software components are install
     - by pressing "gear" icon
     - by select `Project->Generate Code`
     - by pressing **Alt+K**
-  - we will not use ICACHE in this example, thus press `Yes` on `Warning Code Generation` pop-up window
 <br>
   ![Project generation](./img/Prj_gen.gif)
 <br>
 
 ----
 
-## **Step 2** - build the project, run the application
+<br>
+## **Step2** - coding part (`main.c` file)
+<br>
+Define the buffer of bytes to be sent over **USART1** (`USER CODE PV` section):
+<br>
+
+```c
+uint8_t buffer[]={"Homework exercise\n"};
+```
+
+<br>
+![Coding1](./img/Coding1.gif)
+<br>
+Start transmit of the data over **USART1** using prepared buffer and ***polling*** method (`USER CODE 2` section):
+<br>
+
+```c
+HAL_UART_Transmit(&huart1, buffer, 18, 200);
+```
+
+<br>
+![Coding2](./img/Coding2.gif)
+<br>
+
+----
+
+<br>
+## **Step 3** - build the project
 - Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
 <br>
 ![Project build](./img/Prj_build.gif)
@@ -249,3 +295,38 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
   <br>
 
   Alternatively you can download complete set of offline materials from [this link]()
+
+# Verification process at the begining of the session
+
+  The purpose of this part is checking whether all software components can run with provided hardware boards.
+
+- Please start STM32CubeIDE and open the project prepared before the session.
+- Connect board to PC using micro-USB cable. Multicolor LED (right side of USB connector) should be turned on (red color)
+<br>
+![Board connection](./img/Nucleo_connect.gif)
+<br>
+- Start the debug session using `bug` icon or `Run->debug` or by pressing **F11**
+- All the settings should be automatically set based on your compiled project. Press `OK` button
+- At this moment you may see an information window that your STLink firmware is not up-to-date,
+- please accept this message and perform autometic upgrade process
+<br>
+![STLink_upgrade](./img/STLink_upgrade.gif)
+<br>
+- Select `Switch` within `Configure Perspective Switch` dialog which is informing about new (debug one) windows setup within STM32CubeIDE application.
+<br>
+![Project debug](./img/Prj_debug.gif)
+<br>
+- Start terminal application and run it for virtual COM port number assigned to the NUCLEO board with settings: 115200bps, 8bits data, 1 stop bit, no parity, no HW control. As an alternative you can use STM32CubeIDE built-in terminal (please have a look within Appendix for more details)
+- run the application within debug session. As a result within terminal there should be "Homework exercise" message displayed.
+  <br>
+![Final app](./img/App_run.gif)
+<br>.
+
+----
+
+<ainfo>
+ **Congratulations** You have completed varifictation part. Now you are fully prepared for next parts of this workshop session 
+</ainfo>
+
+----
+

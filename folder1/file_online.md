@@ -110,8 +110,8 @@ In case you would like to know more about this tool and its usage you can have a
 # **STM32CubeIDE** - basic project creation
 <br>
 ## **Application description**
+ - prepare template application which could be a staring point for workshop projects
  - send some data over USART1 (to be monitored by terminal application)
- - control Green LED by channel2 of Timer8 (1 second period blinks)
 <br>
 
 <br>
@@ -119,16 +119,11 @@ In case you would like to know more about this tool and its usage you can have a
 <br>
 - Using STM32CubeIDE:
  - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
- - Configure USART1:
+ - Configure ICACHE (in any of available modes)
+ - Select and configure USART1:
    - in asynchronous mode, 
    - using default settings (115200bps, 8D, 1stop bit, no parity) 
    - on PA9/PA10 pins
- - Configure Timer8:
-   - in master mode (default), 
-   - supplied by internal clock, 
-   - with PWM generation on channel2 (PC7 - green LED (LD1) connection), 
-   - 2 seconds period (combination of prescaler and autoreload value), 
-   - 50% duty cycle (pulse settings for channel2)
 <br>
 
 ----
@@ -162,6 +157,8 @@ In case you would like to know more about this tool and its usage you can have a
   ![Clock configuration](./img/Clock_conf.gif)
 <br>
 - Peripherals configuration: Pinout&Configuration tab
+<br>
+
 - **USART1 configuration** (Connectivity group)
   - select Asynchronous mode
   - keep default settings in configuration:
@@ -170,15 +167,12 @@ In case you would like to know more about this tool and its usage you can have a
     - no interrupts, no DMA usage
   <br>
     ![USART1 configuration](./img/USART1_conf.gif)
-<br>
-- **Timer8 configuration** (Timers group)
-  - Clock Source: internal clock
-  - Channel2: PWM Generation CH2 (on PC7 pin). In case of different pin assignment, press Ctrl and left button on mouse over this pin, then drag the pin on the highlighted PC7 location and relase mouse button and then Ctrl key
-  - Parameters Settings:
-    - Prescaler and Counter Period to have 2s period (i.e. 3999, 1999)
-    - Pulse to have 50% duty cycle (i.e. 1000)
   <br>
- ![Timer8 configuration](./img/TIM8_conf.gif)
+- **ICACHE configuration** (System Core group)
+  - select either 1-way or 2-ways (we will not focus on performance within this workshop)
+  <br>
+  ![ICACHE configuration](./img/ICACHE_conf.gif)
+  <br>
 <br>
 - **Project settings**
   - select `Project Manager` tab
@@ -205,7 +199,6 @@ Define the buffer of bytes to be sent over **USART1** (`USER CODE PV` section):
 <br>
 
 ```c
-/* USER CODE BEGIN PV */
 uint8_t buffer[]={"Homework exercise\n"};
 ```
 
@@ -216,22 +209,11 @@ Start transmit of the data over **USART1** using prepared buffer and ***polling*
 <br>
 
 ```c
-/* USER CODE 2 BEGIN */
 HAL_UART_Transmit(&huart1, buffer, 18, 200);
 ```
 
 <br>
 ![Coding2](./img/Coding2.gif)
-<br>
-Start **Timer8** in PWM mode on its ***Channel2*** according to its configuration (the same section as above):
-<br>
-
-```c
-HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
-```
-
-<br>
-![Coding3](./img/Coding3.gif)
 <br>
 
 ----
@@ -258,7 +240,7 @@ HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);
 ![Project debug](./img/Prj_debug.gif)
 <br>
  - Start terminal application and run it for virtual COM port number assigned to the NUCLEO board with settings: 115200bps, 8bits data, 1 stop bit, no parity, no HW control. As an alternative you can use STM32CubeIDE built-in terminal (please have a look within Appendix for more details)
- - run the application within debug session. As a result Green LED should toogle each second and within terminal there should be "Homework exercise" message displayed.
+ - run the application within debug session. As a result within terminal there should be "Homework exercise" message displayed.
   <br>
 ![Final app](./img/App_run.gif)
 <br>.
