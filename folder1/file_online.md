@@ -242,7 +242,7 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
  - Start terminal application and run it for virtual COM port number assigned to the NUCLEO board with settings: 115200bps, 8bits data, 1 stop bit, no parity, no HW control. As an alternative you can use STM32CubeIDE built-in terminal (please have a look within Appendix for more details)
  - run the application within debug session. As a result within terminal there should be "Homework exercise" message displayed.
   <br>
-![Final app](./img/App_run.gif)
+![Final app](./img/App_run_small.gif)
 <br>.
 
 ----
