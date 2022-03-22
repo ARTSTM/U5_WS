@@ -189,7 +189,7 @@ In case you would like to know more about this tool and its usage you can have a
 <br>
   ![Project generation](./img/Prj_gen.gif)
 <br>
-
+ - In case you see a warning pop-up window concerning SMPS configuration, please OK. This will be explained in next parts of the session.
 ----
 
 <br>

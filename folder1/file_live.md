@@ -193,6 +193,7 @@ Additionally prepared test project can be a base for next hands-on parts during 
 <br>
   ![Project generation](./img/Prj_gen.gif)
 <br>
+ - In case you see a warning pop-up window concerning SMPS configuration, please OK. This will be explained in next parts of the session.
 
 ----
 
