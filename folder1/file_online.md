@@ -278,15 +278,12 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
 
 
 # Materials for the session
-- presentations
-  - Introduction
-  - Martketing presentation
-  - Installation and verification (current part)
-  - [General Purpose DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/gpdma/2_gpdma_handson_basic_gpdma.md/0)
-  - [Low power modes](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/LP_mode/lpmodes_workflow.md)
-  - [Low Power DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/lpbam/theory.md)
-  - Summary
-- solutions of the projects [link]
+- Access to tools dedicated web pages:
+  - [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+  - [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
+  - [STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)
+  - [STM32CubeMonitorPower](https://www.st.com/en/development-tools/stm32cubemonpwr.html)
+- [on-line training resources](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs.html):
 - documentation
   - [STM32U575 datasheet](https://www.st.com/resource/en/datasheet/stm32u575zi.pdf)
   - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)

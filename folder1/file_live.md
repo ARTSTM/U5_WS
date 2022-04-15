@@ -271,26 +271,25 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
   ![Built-in terminal](./img/IDE_terminal.gif)
 
 # Materials for the session
-- presentations
-  - Introduction
-  - Martketing presentation
-  - Installation and verification (current part)
-  - [General Purpose DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/gpdma/2_gpdma_handson_basic_gpdma.md/0)
-  - [Low power modes](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/LP_mode/lpmodes_workflow.md)
-  - [Low Power DMA](https://rristm.github.io/tomas_materials_v2/RRISTM/stm32u5_workshop/lpbam/theory.md)
-  - Summary
-- solutions of the projects [link]
+- Access to tools dedicated web pages:
+  - [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+  - [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
+  - [STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)
+  - [STM32CubeMonitorPower](https://www.st.com/en/development-tools/stm32cubemonpwr.html)
+- [on-line training resources](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs.html):
 - documentation
   - [STM32U575 datasheet](https://www.st.com/resource/en/datasheet/stm32u575zi.pdf)
   - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)
   - [NUCLEO-U575ZI-Q board schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
-  <br>
+
 
   Alternatively you can download complete set of offline materials from [this link]()
 
 # Verification process at the begining of the session
 
   The purpose of this part is checking whether all software components can run with provided hardware boards.
+  <br>
+  **We will reuse the project prepared within homework part.**
 
 - Please start STM32CubeIDE and open the project prepared before the session.
 - Connect board to PC using micro-USB cable. Multicolor LED (right side of USB connector) should be turned on (red color)
@@ -300,7 +299,7 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
 - Start the debug session using `bug` icon or `Run->debug` or by pressing **F11**
 - All the settings should be automatically set based on your compiled project. Press `OK` button
 - At this moment you may see an information window that your STLink firmware is not up-to-date,
-- please accept this message and perform autometic upgrade process
+- please accept this message and perform automatic upgrade process
 <br>
 ![STLink_upgrade](./img/STLink_upgrade.gif)
 <br>
