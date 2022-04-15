@@ -35,7 +35,7 @@ See you on STM32U5 Workshop live session
 
 # Prerequisites
 - Hardware:
-  - **PC with MS Windows 10 operating system**
+  - **PC with MS Windows 10 operating system and admin rights granted**
   - **2 micro USB** cables 
   <br>
   ![microUSB cables](./img/uUSB.jpg)  ![microUSB cables](./img/uUSB.jpg)
@@ -149,11 +149,11 @@ Additionally prepared test project can be a base for next hands-on parts during 
   <br>
   ![Workspace_start2](./img/New_prj_start_2.gif)
 <br>
-- select STM32**U575ZI**TxQ MCU
+- select STM32**U575ZI**TxQ MCU (the one present on NUCLEO-U575ZI-Q board)
 - press `Next` button
 - within STM32 Project window:
   - specify project name (i.e. `U5_Basic`)
-  - select option **without TrustZone**
+  - keep **enable TrustZone** option unchecked
   - press `Finish` button
   - on warning pop-up window press `Yes` button
   <br>

@@ -34,7 +34,7 @@ In case of any questions / problems please contact us on [link](https://communit
 <br>
 # Prerequisites
 - Hardware:
-  - **PC with MS Windows 10 operating system**
+  - **PC with MS Windows 10 operating system and admin rights granted**
   - **2 micro USB** cables 
   <br>
   ![microUSB cables](./img/uUSB.jpg)  ![microUSB cables](./img/uUSB.jpg)
@@ -141,11 +141,11 @@ In case you would like to know more about this tool and its usage you can have a
   <br>
   ![Workspace_start2](./img/New_prj_start_2.gif)
 <br>
-- select STM32**U575ZI**TxQ MCU
+- select STM32**U575ZI**TxQ MCU (the one present on NUCLEO-U575ZI-Q board)
 - press `Next` button
 - within STM32 Project window:
   - specify project name (i.e. `U5_Basic`)
-  - select option **without TrustZone**
+  - keep **enable TrustZone** option unchecked
   - press `Finish` button
   - on warning pop-up window press `Yes` button
   <br>
@@ -231,7 +231,7 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
  - Start the debug session using `bug` icon or `Run->debug` or by pressing **F11**
  - All the settings should be automatically set based on your compiled project. Press `OK` button
  - At this moment you may see an information window that your STLink firmware is not up-to-date,
- - please accept this message and perform autometic upgrade process
+ - please accept this message and perform automatic upgrade process
 <br>
 ![STLink_upgrade](./img/STLink_upgrade.gif)
 <br>
@@ -244,6 +244,10 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
   <br>
 ![Final app](./img/App_run_small.gif)
 <br>.
+ - click on "terminate" icon to stop the debug session
+<br>
+![Terminate](./img/terminate.gif)
+<br>
 
 ----
 
