@@ -243,7 +243,7 @@ HAL_UART_Transmit(&huart1, buffer, 18, 200);
  - run the application within debug session. As a result within terminal there should be "Homework exercise" message displayed.
   <br>
 ![Final app](./img/App_run_small.gif)
-<br>.
+<br>
  - click on "terminate" icon to stop the debug session
 <br>
 ![Terminate](./img/terminate.gif)

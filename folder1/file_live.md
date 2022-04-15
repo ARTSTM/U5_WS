@@ -110,15 +110,6 @@ Additionally prepared test project can be a base for next hands-on parts during 
 
 ## ** 1 STM32CubeIDE and STM32U5 Cube library**
 <br>
-## **Task definition**
-<br>
-- Using STM32CubeIDE:
- - Configure system clock (SYSCLK and HCLK) to 4MHz using internal MSI oscillators (default settings)
- - Configure USART1:
-   - in asynchronous mode, 
-   - using default settings (115200bps, 8D, 1stop bit, no parity) 
-   - on PA9/PA10 pins
-<br>
 
 ----
 
