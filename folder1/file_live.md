@@ -276,7 +276,7 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
   - [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
   - [STM32U5 Cube library](https://www.st.com/en/embedded-software/stm32cubeu5.html)
   - [STM32CubeMonitorPower](https://www.st.com/en/development-tools/stm32cubemonpwr.html)
-- [on-line training resources](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs.html):
+- [STM32 on-line training resources](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs.html)
 - documentation
   - [STM32U575 datasheet](https://www.st.com/resource/en/datasheet/stm32u575zi.pdf)
   - [STM32U575 reference manual](https://www.st.com/resource/en/reference_manual/rm0456-stm32u575585-armbased-32bit-mcus-stmicroelectronics.pdf)
